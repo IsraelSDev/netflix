@@ -1,13 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
+import Search from "/components/search/search";
+import Form from "/components/form/form";
 
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Home Page</title>
-      </Head>
-      <p>Olá eu sou o Israel, e estou aprendendo Next.js</p>
+      <Form type="login" />
     </div>
   );
 }
