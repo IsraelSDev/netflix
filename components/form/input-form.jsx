@@ -12,6 +12,7 @@ const InputForm = ({ type, placeholder, required }) => {
       errorMessage.style.opacity = '0';
       e.style.borderBottom = "1px solid var(--color-white)";
     }
+
   }
 
 
@@ -24,7 +25,7 @@ const InputForm = ({ type, placeholder, required }) => {
         handleEmpty(e.target)
       }}
     />
-    <span id="error-span" className={style.error}>Can't be empty</span>
+    <span id="error-span" className={style.error}>Can&lsquo;t be empty</span>
   </>);
 }
 

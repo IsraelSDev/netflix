@@ -19,7 +19,7 @@ const LoginForm = ({ type }) => {
             <Input type="password" placeholder="Password" required="required" />
             <Button value="Login to your account" />
             <span className={style.span}>
-              Don't have an account? <Link href="/register"><a>Sign Up</a></Link>
+              Don	&lsquo;t have an account? <Link href="/register"><a>Sign Up</a></Link>
             </span>
           </>) : null ||
 
