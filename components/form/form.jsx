@@ -19,12 +19,12 @@ const LoginForm = ({ type }) => {
             <Input type="password" placeholder="Password" required="required" />
             <Button value="Login to your account" />
             <span className={style.span}>
-              Don't have an account? <Link href="/register"><a>Register</a></Link>
+              Don't have an account? <Link href="/register"><a>Sign Up</a></Link>
             </span>
           </>) : null ||
 
             type === 'register' ? (<>
-              <h1>Register</h1>
+              <h1>Sign Up</h1>
               <Input type="email" placeholder="Email Adress" required="required" />
               <Input type="password" placeholder="Password" required="required" />
               <Input type="password" placeholder="Repeat password" required="required" />
