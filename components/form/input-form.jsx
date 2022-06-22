@@ -12,6 +12,7 @@ const InputForm = ({ type, placeholder, required }) => {
       errorMessage.style.opacity = '0';
       e.style.borderBottom = "1px solid var(--color-white)";
     }
+    
   }
 
 
